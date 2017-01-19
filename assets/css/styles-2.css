@@ -27,7 +27,7 @@ h6 {
   font-weight: 700;
 }
 a {
-  color: #35776d !important;
+  color: #35776d;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -303,3 +303,8 @@ p {
 }
 /* Large devices (large desktops, 1200px and up) */
 /* Ex-Large devices (large desktops, 1200px and up) */
+
+/* Custom CCS */
+nav a {
+  color: #35776d !important;
+}
