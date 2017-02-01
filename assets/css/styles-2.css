@@ -251,6 +251,15 @@ p {
   top: 0;
   color: #97AAC3;
 }
+.certification-section .certification-tagline {
+  display: inline-block;
+  width: 40%;
+}
+.certification-section .certification-display {
+  height: 150px;
+  width: 200px;
+  float: right;
+}
 .footer {
   padding: 30px;
   padding-top: 60px;
@@ -280,6 +289,12 @@ p {
   .main-wrapper .upper-row {
     margin-bottom: 0;
   }
+  .certification-section .certification-tagline {
+    display: inline;
+  }
+  .certification-section .certification-display {
+    display: none;
+  }
 }
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
@@ -299,6 +314,9 @@ p {
     float: left;
     position: relative;
     top: 1px;
+  }
+  .certification-section .certification-tagline {
+    width: 65%;
   }
 }
 /* Large devices (large desktops, 1200px and up) */
